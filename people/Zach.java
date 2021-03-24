@@ -1,6 +1,7 @@
+package people;
 // Experimental interface, i.e., I don't know Java, and I'm just trying crazy things....
 public class Zach {
-  int zachAge;
+  public int zachAge;
   public Zach(int age) {
     zachAge = age;
   }

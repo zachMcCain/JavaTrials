@@ -8,7 +8,7 @@ public class HelloWorld {
     worldWidth = width;
   }
   public static void main(String[] args) {
-    Zach myZach = new Zach(33);
+    people.Zach myZach = new people.Zach(33);
     HelloWorld myWorld = new HelloWorld("James's World", 5, 5);
     System.out.println("World Name: " + myWorld.worldName);
     System.out.println("World Size: " + myWorld.worldHeight + " x " + myWorld.worldWidth);

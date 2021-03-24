@@ -1,3 +1,5 @@
+package people;
+
 public class James {
   int jamesHeight;
   int jamesWidth;
