@@ -1,11 +1,7 @@
 package people;
 // Experimental interface, i.e., I don't know Java, and I'm just trying crazy things....
-public class Zach {
-  public int zachAge;
-  public Zach(int age) {
-    zachAge = age;
-  }
-  public void printRole () {
-    System.out.println("I am the 'master' of this mad house.");
+public class Zach extends Person {
+  public Zach(int x, int y, int z, String role) {
+    super(x, y, z, role);
   }
 }

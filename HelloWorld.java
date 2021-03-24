@@ -1,3 +1,5 @@
+import people.*;
+
 public class HelloWorld {
   int worldHeight;
   int worldWidth;
@@ -8,11 +10,12 @@ public class HelloWorld {
     worldWidth = width;
   }
   public static void main(String[] args) {
-    people.Zach myZach = new people.Zach(33);
+    Zach myZach = new Zach(33, 4, 2, "I am the 'master' of this mad house.");
     HelloWorld myWorld = new HelloWorld("James's World", 5, 5);
     System.out.println("World Name: " + myWorld.worldName);
     System.out.println("World Size: " + myWorld.worldHeight + " x " + myWorld.worldWidth);
-    System.out.println("Zach's age: " + myZach.zachAge);
+    System.out.println("Zach's age: " + myZach.age);
     myZach.printRole();
+    myZach.eat();
   }
 }
